@@ -4,7 +4,7 @@
 
 ---
 
-### 🏗️ System Architecture
+### System Architecture
 
 The platform follows a robust 4-tier data architecture:
 1.  **Ingestion Tier**: A stability-aware orchestrator monitors device folders, handling concurrent ingestion of multi-stream JSON and SQLite databases.
@@ -14,7 +14,7 @@ The platform follows a robust 4-tier data architecture:
 
 ---
 
-### 🚀 Key Features
+### Key Features
 
 * **Smart Orchestration**: Automatically detects, validates, and processes incoming device data using a file-stability polling mechanism.
 * **Multi-Modal Ingestion**: 
@@ -26,7 +26,7 @@ The platform follows a robust 4-tier data architecture:
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 * **Language**: Python 3.9+ (Pandas, SQLAlchemy, Psycopg)
 * **Database**: PostgreSQL 13+ (Time-based Partitioning)
@@ -35,7 +35,7 @@ The platform follows a robust 4-tier data architecture:
 
 ---
 
-### 📂 Repository Structure
+### Repository Structure
 
 ```text
 .
